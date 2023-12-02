@@ -1,0 +1,22 @@
+#root {
+  margin: 0 auto;
+  min-height: 100vh;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+  color: var(--primary-color);
+}
+
+.main-title {
+  margin: 40px 0;
+}
+
+.timers {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-around;
+}
